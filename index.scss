@@ -1,0 +1,16 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  button,
+  h1,
+  h3,
+  h4,
+  input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
