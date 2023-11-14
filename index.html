@@ -11,18 +11,21 @@
       <div class="header-title">
         <h1>To Do List</h1>
       </div>
+
       <div class="add-to-list">
         <h3>Add To List</h3>
-        <label for="add-input">What would you like to add?</label><br />
-        <input type="text" id="add-input" /><br />
-        <button class="submit-button" onclick="">Submit</button>
+        <label for="add-task">What would you like to add?</label><br />
+        <input type="text" id="add-input" placeholder="Add a new task" /><br />
+        <button class="submit-button" onclick="submitButton()">Submit</button>
       </div>
+
       <div class="pending-list">
-        <h4>Pending To-Do List</h4>
-        <ul id="todo-list"></ul>
+        <h4>Pending Task List</h4>
+        <ul id="pending-tasks"></ul>
       </div>
+
       <div class="completed-list">
-        <h4>Completed To-Do List</h4>
+        <h4>Completed Task List</h4>
         <p id="completed-message">No to-dos completed.</p>
         <ul id="completed-list"></ul>
       </div>
